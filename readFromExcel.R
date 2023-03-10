@@ -8,7 +8,7 @@ setwd('C:/Users/AGIRIBET/Desktop/shinyApp')
 drop_auth(rdstoken = "droptoken.rds")
 loadDropbox<-source('functions/loaddropbox.R',local=T)$value
 saveDropbox<-source('functions/savedropbox.R',local=T)$value
-fuzzyLogic<-source('functions/fuzzyLogic.R',local=T)$value
+fuzzyLogic<-source('functions/fuzzylogic.R',local=T)$value
 dataDropbox<-loadDropbox()
 
 fuzzyMatches<-dataDropbox[[1]]
