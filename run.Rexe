@@ -1,0 +1,3 @@
+options(browser = "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe")
+
+shiny::runApp('C:/Users/AGIRIBET/Desktop/others/tennis/shinyApp', launch.browser = T)
